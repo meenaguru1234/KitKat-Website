@@ -1,0 +1,9 @@
+import  { Axios } from "axios"
+
+
+const authaxios = Axios.create({
+    baseURL: "http://localhost:4000/"
+})
+
+
+ export default authaxios;
